@@ -1,4 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
-    height: 250px;
+    height: 55px;
     background-color: #2E4A5B;
+    text-align: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    
+}
+#logo{
+    grid-row: 1/1;
+    grid-column: 2/3;
+}
+#menug{
+    grid-row: 1/1;
+    grid-column: 3/4;
+    justify-self: right;
+    align-self: center;
 }
