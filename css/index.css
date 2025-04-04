@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    background-color: #E8D5B5;
+    font-family: itim;
+}
 header{
     height: 55px;
     background-color: #2E4A5B;
@@ -22,7 +25,46 @@ header{
     justify-self: right;
     align-self: center;
 }
-.gombok{
-    height: 400px;
-    background-image: url(./images/hatter.png);
+
+.flex-container{
+    display: flex;
+    gap:2.5vh;
+    flex-direction: column;
+}
+article h1 , h2{
+    text-align: center;
+}
+.egy{
+    background-color: #C76D39;
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.egy img{
+    width: 100vw;
+    height: 15vh;
+    position: left;
+}
+.ketto{
+    background-color: #C76D39;
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.ketto img{
+    width: 100vw;
+    height: 15vh;
+    position: left;
+}
+
+.harom{
+    background-color: #C76D39;
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.harom img{
+    width: 100vw;
+    height: 15vh;
+    position: left;
 }
