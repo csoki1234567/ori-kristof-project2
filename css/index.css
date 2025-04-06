@@ -4,7 +4,7 @@
 }
 body{
     background-color: #E8D5B5;
-    font-family: itim;
+    font-family: cursive;
 }
 header{
     height: 55px;
@@ -31,40 +31,72 @@ header{
     gap:2.5vh;
     flex-direction: column;
 }
+.flex-container p{
+    font-size: 0.8rem;
+}
+
 article h1 , h2{
     text-align: center;
 }
 .egy{
     background-color: #C76D39;
-    display: flex;
     margin-left: 2%;
     margin-right: 2%;
+    display: grid;
+    grid-template-columns: 30vw  1fr ; 
+    grid-template-rows: 5vh 1fr;
+    place-items: center;
 }
 .egy img{
-    width: 100vw;
-    height: 15vh;
+    width: 27vw;
+    height: 23.5vh;
     position: left;
+    grid-row: 1/ span 2;
+}
+.egy p{
+    grid-column: 2 / span 2;
+    color:white;
+    text-align: center;
 }
 .ketto{
     background-color: #C76D39;
-    display: flex;
     margin-left: 2%;
     margin-right: 2%;
+    display: grid;
+    grid-template-columns: 30vw  1fr ; 
+    grid-template-rows: 10vh 1fr;
+   place-items:center ;
 }
 .ketto img{
-    width: 100vw;
-    height: 15vh;
+    width: 27vw;
+    height: 24.5vh;
     position: left;
+    grid-row: 1/ span 2;
 }
+.ketto p{
+    grid-column: 2 / span 2;
+    color:white;
+    text-align: center;
+}
+
 
 .harom{
     background-color: #C76D39;
-    display: flex;
     margin-left: 2%;
     margin-right: 2%;
+    display: grid;
+    grid-template-columns: 30vw  1fr ; 
+    grid-template-rows: 10vh 1fr;
+   place-items:center ;
 }
 .harom img{
-    width: 100vw;
-    height: 15vh;
+    width: 27vw;
+    height: 24.5vh;
     position: left;
+    grid-row: 1/ span 2;
+}
+.harom p{
+    grid-column: 2 / span 2;
+    color:white;
+    text-align: center;
 }
