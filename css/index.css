@@ -18,6 +18,11 @@ body{
     grid-column-gap: 0px;
     grid-row-gap: 0px;  
 }
+.vlem{
+    background-color: #E8D5B5;
+    text-align: center;
+    height: 80vw;
+}
 .vasar,.utvonal{
     height: 42px;
     width: 120px;
@@ -25,12 +30,27 @@ body{
 .vasar{
     grid-area: 4 / 3 / 5 / 4;
     background-color: #444444;
-    border-radius: 5.5;
+    color: whitesmoke;
+    font-size: 25px;
 }
 .utvonal{
     grid-area: 5 / 3 / 6 / 4;
+    background-color: #C76D39;
+    font-size: 20px;
 }
-p{
+p,h3{
     font-family: Itim;
 }
+button{
+    border: none;
+    text-align: center;
+}
+.carousel-item{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+img{
+    margin-bottom: 20px;
+}
+
 
