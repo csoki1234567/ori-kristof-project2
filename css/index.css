@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Itim;
+    src: url('../assets/fonts/Itim-Regular.ttf');
+  }  
 body{
     background-color: #E8D5B5;
 }
@@ -25,5 +29,8 @@ body{
 }
 .utvonal{
     grid-area: 5 / 3 / 6 / 4;
+}
+p{
+    font-family: Itim;
 }
 
