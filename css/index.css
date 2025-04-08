@@ -49,7 +49,7 @@ article h1 , h2{
 }
 .egy img{
     width: 27vw;
-    height: 23.5vh;
+    height: 21vh;
     position: left;
     grid-row: 1/ span 2;
 }
@@ -69,7 +69,7 @@ article h1 , h2{
 }
 .ketto img{
     width: 27vw;
-    height: 24.5vh;
+    height: 21vh;
     position: left;
     grid-row: 1/ span 2;
 }
@@ -91,7 +91,7 @@ article h1 , h2{
 }
 .harom img{
     width: 27vw;
-    height: 24.5vh;
+    height: 21vh;
     position: left;
     grid-row: 1/ span 2;
 }
