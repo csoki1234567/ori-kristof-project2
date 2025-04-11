@@ -6,15 +6,16 @@
     font-family: Itim;
     src: url('../assets/fonts/Itim-Regular.ttf');
   }  
-body{
+
+  
+body :not(footer ){
     font-family: vertical;
     background-color: #E8D5B5;
-    
 }
 
-header{
-    height: 55px;
-    background-color: #2E4A5B;
+header {
+    height: 7vh;
+    background-color: #2E4A5B !important;
     text-align: center;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -24,12 +25,14 @@ header{
 #logo{
     grid-row: 1/1;
     grid-column: 2/3;
+    background-color: #2E4A5B !important;
 }
 #menug{
     grid-row: 1/1;
     grid-column: 3/4;
     justify-self: right;
     align-self: center;
+    background-color: #2E4A5B !important;
 }
 
 .flex-container{
@@ -40,9 +43,16 @@ header{
 .flex-container p{
     font-size: 0.8rem;
 }
-article h1 , h2{
+article  h1 , h2{
+    text-align: center;
+    background-color: #C76D39;
+}
+#szoveg{
+    background-color: #E8D5B5;
+    font-size: 2.5rem;
     text-align: center;
 }
+
 .egy{
     background-color: #C76D39;
     margin-left: 2%;
@@ -63,6 +73,7 @@ article h1 , h2{
     grid-column: 2 / span 2;
     color:white;
     text-align: center;
+    background-color: #C76D39;
 }
 .ketto{
     background-color: #C76D39;
@@ -83,6 +94,7 @@ article h1 , h2{
     grid-column: 2 / span 2;
     color:white;
     text-align: center;
+    background-color: #C76D39;
 }
 
 
@@ -105,4 +117,6 @@ article h1 , h2{
     grid-column: 2 / span 2;
     color:white;
     text-align: center;
+    background-color: #C76D39;
 }
+
