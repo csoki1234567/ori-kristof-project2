@@ -26,6 +26,7 @@ body{
 .vasar,.utvonal{
     height: 42px;
     width: 120px;
+    border-radius: 5.5px;
 }
 .vasar{
     grid-area: 4 / 3 / 5 / 4;
@@ -51,6 +52,11 @@ button{
 }
 img{
     margin-bottom: 20px;
+    height: 15vw;
+}
+
+.utvonal p{
+    padding-top: 5px;
 }
 
 
