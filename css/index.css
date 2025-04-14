@@ -129,3 +129,18 @@ article h1{
     font-size: 3rem;
 }
 
+.negy{
+    display: grid;
+    grid-template-columns: 30vw  1fr ; 
+    grid-template-rows: 10vh 1fr;
+}
+.negy img{
+    width: 10vw;
+    h
+    .harom p{
+        grid-column: 2 / span 2;
+        color:white;
+        text-align: center;
+        background-color: #C76D39;
+    }eight: 10vh;
+}
