@@ -41,15 +41,19 @@ header {
     flex-direction: column;
 }
 .flex-container p{
-    font-size: 0.8rem;
+    font-size: 1.5rem;
 }
 article  h1 , h2{
     text-align: center;
     background-color: #C76D39;
+    font-size: 3rem;
+}
+article h1{
+    font-size: 3rem;
 }
 #szoveg{
     background-color: #E8D5B5;
-    font-size: 2.5rem;
+    font-size: 4rem;
     text-align: center;
 }
 
@@ -65,7 +69,7 @@ article  h1 , h2{
 }
 .egy img{
     width: 27vw;
-    height: 21vh;
+    height: 20vh;
     position: left;
     grid-row: 1/ span 2;
 }
@@ -118,5 +122,10 @@ article  h1 , h2{
     color:white;
     text-align: center;
     background-color: #C76D39;
+}
+.szoveg_2{
+    text-align: center;
+    background-color:#E8D5B5;
+    font-size: 3rem;
 }
 
