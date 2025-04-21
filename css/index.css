@@ -8,7 +8,7 @@
   }  
 
   
-body :not(footer ){
+body {
     font-family: vertical;
     background-color: #E8D5B5;
 }
@@ -45,7 +45,6 @@ header {
 }
 article  h1 , h2{
     text-align: center;
-    background-color: #C76D39;
     font-size: 3rem;
 }
 article h1{
@@ -77,7 +76,6 @@ article h1{
     grid-column: 2 / span 2;
     color:white;
     text-align: center;
-    background-color: #C76D39;
 }
 .ketto{
     background-color: #C76D39;
@@ -129,18 +127,6 @@ article h1{
     font-size: 3rem;
 }
 
-.negy{
-    display: grid;
-    grid-template-columns: 30vw  1fr ; 
-    grid-template-rows: 10vh 1fr;
-}
-.negy img{
-    width: 10vw;
-    h
-    .harom p{
-        grid-column: 2 / span 2;
-        color:white;
-        text-align: center;
-        background-color: #C76D39;
-    }eight: 10vh;
-}
+
+
+
