@@ -126,7 +126,55 @@ article h1{
     background-color:#E8D5B5;
     font-size: 3rem;
 }
+.carousel{
+    display: grid;
+    grid-template-columns: 7vw 85vw 7vw ; 
+    grid-template-rows: 10vw 10vw 10vw 10vw;
+}
+.carousel_button_right{
+    grid-column-start: 3;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end:3;
+    place-items: center;
+}
+.carousel_button_right img{
+    height: 8vh;
+    width: 7vw;   
+}
+.carousel_button_left{
+    grid-column-start: 1;
+    grid-column-end:1;
+    grid-row-start:2;
+    grid-row-end:3;
+    
+}
+.carousel_button_left img {
+    height: 8vh;
+    width: 7vw; 
+}
 
+.carousel_container{
+    grid-column-start:2 ;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.books{
+    background-color: #C76D39;
+    font-size: 2rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    width:80vw;
+    height: 21vh;
+}
+.books p {
+    color:white;
+    text-align: center;
+    background-color: #C76D39;
+    font-size: 1.5rem;
+}
 
 
 
