@@ -41,18 +41,18 @@ header {
     flex-direction: column;
 }
 .flex-container p{
-    font-size: 1.5rem;
+    font-size: 3vw;
 }
 article  h1 , h2{
     text-align: center;
-    font-size: 3rem;
+    font-size: 6vw;
 }
 article h1{
-    font-size: 3rem;
+    font-size: 6vw;
 }
 #szoveg{
     background-color: #E8D5B5;
-    font-size: 4rem;
+    font-size: 7vw;
     text-align: center;
 }
 
@@ -62,13 +62,13 @@ article h1{
     margin-right: 2%;
     display: grid;
     grid-template-columns: 30vw  1fr ; 
-    grid-template-rows: 5vh 1fr;
+    grid-template-rows: 10vw 25vw;
     place-items: center;
     
 }
 .egy img{
-    width: 27vw;
-    height: 20vh;
+    width: 25vw;
+    height: 32vw;
     position: left;
     grid-row: 1/ span 2;
 }
@@ -83,12 +83,12 @@ article h1{
     margin-right: 2%;
     display: grid;
     grid-template-columns: 30vw  1fr ; 
-    grid-template-rows: 10vh 1fr;
+    grid-template-rows: 10vw 25vw;
    place-items:center ;
 }
 .ketto img{
-    width: 27vw;
-    height: 21vh;
+    width: 24vw;
+    height: 32vw;
     position: left;
     grid-row: 1/ span 2;
 }
@@ -106,12 +106,12 @@ article h1{
     margin-right: 2%;
     display: grid;
     grid-template-columns: 30vw  1fr ; 
-    grid-template-rows: 10vh 1fr;
+    grid-template-rows: 10vw 32vw;
    place-items:center ;
 }
 .harom img{
-    width: 27vw;
-    height: 21vh;
+    width: 25vw;
+    height: 37vw;
     position: left;
     grid-row: 1/ span 2;
 }
@@ -124,13 +124,13 @@ article h1{
 .szoveg_2{
     text-align: center;
     background-color:#E8D5B5;
-    font-size: 3rem;
+    font-size: 6vw;
 }
 .carousel{
 
     display: grid;
     grid-template-columns: 7vw 85vw 7vw ; 
-    grid-template-rows: 10vw 10vw 10vw 10vw;
+    grid-template-rows: 12vw 12vw 12vw 12vw;
 }
 .carousel_button_right{
     grid-column-start: 3;
@@ -140,7 +140,7 @@ article h1{
     place-items: center;
 }
 .carousel_button_right img{
-    height: 8vh;
+    height: 8vw;
     width: 7vw;   
 }
 .carousel_button_left{
@@ -151,7 +151,7 @@ article h1{
     
 }
 .carousel_button_left img {
-    height: 8vh;
+    height: 8vw;
     width: 7vw; 
 }
 
@@ -164,18 +164,18 @@ article h1{
 }
 .books{
     background-color: #C76D39;
-    font-size: 2rem;
+    font-size: 2vw;
     top:0;
     bottom:0;
     width:85vw;
-    height: 21vh;
+    height: 21vw;
     display: none;
 }
 .books p {
     color:white;
     text-align: center;
     background-color: #C76D39;
-    font-size: 1.5rem;
+    font-size: 3vw;
 }
 
 .books.active{
