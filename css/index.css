@@ -127,6 +127,7 @@ article h1{
     font-size: 3rem;
 }
 .carousel{
+
     display: grid;
     grid-template-columns: 7vw 85vw 7vw ; 
     grid-template-rows: 10vw 10vw 10vw 10vw;
@@ -159,6 +160,7 @@ article h1{
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 4;
+    justify-items: center;
 }
 .books{
     background-color: #C76D39;
@@ -166,7 +168,7 @@ article h1{
     position: absolute;
     top:0;
     bottom:0;
-    width:80vw;
+    width:85vw;
     height: 21vh;
 }
 .books p {
