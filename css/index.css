@@ -130,7 +130,7 @@ article h1{
 
     display: grid;
     grid-template-columns: 7vw 85vw 7vw ; 
-    grid-template-rows: 12vw 12vw 12vw 12vw;
+    grid-template-rows: 12vw 12vw 12vw ;
 }
 .carousel_button_right{
     grid-column-start: 3;
