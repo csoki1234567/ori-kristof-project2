@@ -162,6 +162,7 @@ article h1{
     grid-row-start: 1;
     grid-row-end: 4;
     justify-items: center;
+    position: relative;
 }
 .books{
     background-color: #C76D39;
@@ -170,9 +171,11 @@ article h1{
     bottom:0;
     width:85vw;
     height: 21vw;
+    transition: opacity 0.3s ease;
+    display: block;
     inset:0;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    position: absolute;
 }
 .books p {
     color:white;
@@ -185,6 +188,7 @@ article h1{
 .books.active{
     display: grid;
     opacity: 1;
+    
 }
 .books img{
     display:none;
@@ -221,6 +225,7 @@ article h1{
     .carousel{
         display: none;
     }
+
 }
 
 
