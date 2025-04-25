@@ -190,5 +190,38 @@ article h1{
     display:none;
 }
 
+@media only screen and (min-width: 800px){
+    article h1, h2{
+        font-size: 3vw;
+    }
+    #szoveg{
+        font-size: 4vw;
+    }
+    .flex-container{
+        display:flex;
+        justify-content:space-between ;
+        flex-direction: row;
+    }
+    .egy, .ketto, .harom{
+    background-color: #C76D39;
+    height: 16vw;
+    width: 25vw;
+    display: block;
+    }
+    .egy p, .ketto p, .harom p{
+        font-size: 1.2vw;
+    }
+    .egy h1, .ketto h1, .harom h1{
+        font-size: 2.2vw;
+    }
+    
+    .egy img, .ketto img, .harom img{
+        display: none;
+    }
+    .carousel{
+        display: none;
+    }
+}
+
 
 
