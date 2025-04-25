@@ -186,6 +186,9 @@ article h1{
     display: grid;
     opacity: 1;
 }
+.books img{
+    display:none;
+}
 
 
 
