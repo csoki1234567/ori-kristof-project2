@@ -170,17 +170,18 @@ article h1{
     width:85vw;
     height: 21vw;
     display: none;
+    inset:0;
+    opacity: 0;
 }
 .books p {
     color:white;
     text-align: center;
     background-color: #C76D39;
     font-size: 3vw;
-    inset:0;
-    opacity: 0;
+    
 }
 
-.books.active{
+.books[data-active]{
     display: grid;
     opacity: 1;
 }
