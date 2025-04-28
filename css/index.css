@@ -6,7 +6,6 @@ body{
     background-color: #E8D5B5;
 }
 .gombok{
-    height: 67vw;
     background-image: url("../images/hatter.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -39,7 +38,7 @@ body{
     background-color: #C76D39;
     font-size: 20px;
 }
-p,h3{
+p,h3,h1{
     font-family: Itim;
 }
 button{
@@ -59,17 +58,40 @@ img{
     padding-top: 5px;
 }
 
-
 @media screen and (min-width: 800px){
     .gombok{
         background-image: none;
-        display: grid;
-        grid-template-columns: repeat(7, 1fr);
-        grid-template-rows: repeat(7, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
+        display: inline;
     }
-    .div1 { grid-area: 2 / 5 / 7 / 8; }
-    .div2 { grid-area: 2 / 1 / 6 / 4; }
-    .div3 { grid-area: 6 / 1 / 7 / 4; }
+   .merge{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    } 
+    .felirat{ grid-area: 2 / 1 / 5 / 5; }
+    .gombok{ grid-area: 6 / 1 / 7 / 5; }
+    .foto{ grid-area: 2 / 6 / 6 / 10; }
+
+    .gombok{
+        justify-self: center;
+    }
+    .felirat{
+        font-size: 30px;
+    }
+    .felirat h1{
+        font-size: 50px;
+    }
+    .fenykep{
+        width: 700px;
+        height: auto;
+    }
+
+
+}
+@media screen and (max-width: 800px){
+    .gombok{
+        height: 67vw;
+    }
 }
