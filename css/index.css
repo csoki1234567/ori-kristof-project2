@@ -22,7 +22,7 @@ header {
     justify-items: center;
     
 }
-.flip-card{
+.wrapper{
     display: none;
 }
 #logo{
@@ -230,13 +230,16 @@ article h1{
     }
 
 }
-
+.wrapper{
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-rows: repeat(20 30vw);
+}
 .flip-card {
     background-color: transparent;
-    width: 300px;
-    height: 300px;
+    width: 25vw;
+    height: 30vw;
     perspective: 1000px;
-    display: block;
   }
   
   .flip-card-inner {
@@ -268,7 +271,7 @@ article h1{
   
   .flip-card-back {
     background-color: #2980b9;
-    color: white;
+    color: black;
     transform: rotateY(180deg);
   }
 
