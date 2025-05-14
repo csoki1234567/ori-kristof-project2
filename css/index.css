@@ -229,18 +229,18 @@ article h1{
         display: none;
     }
 
-}
+
 .wrapper{
     display: grid;
-    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-columns: 20vw 20vw 20vw;
     grid-template-rows: repeat(20 30vw);
 }
 .flip-card {
     background-color: transparent;
-    width: 25vw;
-    height: 30vw;
+    width: 20vw;
+    height: 25vw;
     perspective: 1000px;
-  }
+}
   
   .flip-card-inner {
     position: relative;
@@ -275,3 +275,4 @@ article h1{
     transform: rotateY(180deg);
   }
 
+}
