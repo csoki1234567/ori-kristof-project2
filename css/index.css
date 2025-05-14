@@ -233,12 +233,45 @@ article h1{
 .wrapper{
     display: grid;
     grid-template-columns: 20vw 20vw 20vw;
-    grid-template-rows: repeat(20 30vw);
+    grid-template-rows: repeat(20,  5vw 25vw 25vw);
+    justify-content: right;
+     place-items: center;
+}
+#text{
+    grid-column-start: 1;
+    grid-column-end:4;
+    font-size: 3vw;
+}
+.text_2{
+    font-size: 3vw;
+    grid-column-start:1;
+    grid-column-end:4;
+}
+.illiasz{
+    grid-column-start: 2;
+    grid-column-end:3 ;
+    grid-row-start: 2;
+    grid-row-end:4;
+}
+
+.media{
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.Oreszteia{
+    grid-column-start: 3;
+    grid-column-end:4;
+}
+.Nikomakhoszi{
+    grid-column-start: 2;
+    grid-column-end:3 ;
+    grid-row-start: 5;
+    grid-row-end:7;
 }
 .flip-card {
     background-color: transparent;
-    width: 20vw;
-    height: 25vw;
+    width: 16vw;
+    height: 24vw;
     perspective: 1000px;
 }
   
