@@ -233,17 +233,22 @@ article h1{
 .wrapper{
     display: grid;
     grid-template-columns: 20vw 20vw 20vw;
-    grid-template-rows: repeat(20,  5vw 25vw 25vw);
+    grid-template-rows: repeat(20,  10vw 25vw 25vw);
     justify-content: right;
      place-items: center;
 }
 #text{
     grid-column-start: 1;
     grid-column-end:4;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 .text_2{
-    font-size: 3vw;
+    font-size: 4vw;
+    grid-column-start:1;
+    grid-column-end:4;
+}
+.text_3{
+    font-size:4;
     grid-column-start:1;
     grid-column-end:4;
 }
@@ -267,6 +272,12 @@ article h1{
     grid-column-end:3 ;
     grid-row-start: 5;
     grid-row-end:7;
+}
+.Thukudidesz{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:8;
+    grid-row-end:10;
 }
 .flip-card {
     background-color: transparent;
