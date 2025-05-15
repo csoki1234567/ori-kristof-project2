@@ -225,7 +225,10 @@ article h1{
     .carousel{
         display: none;
     }
-
+    .flip-card-inner{
+        width: 200vw;
+        height: 200vw;
+    }
 }
 
 
