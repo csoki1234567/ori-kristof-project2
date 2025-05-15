@@ -238,7 +238,7 @@ article h1{
 .wrapper{
     display: grid;
     grid-template-columns: 20vw 20vw 20vw;
-    grid-template-rows: repeat(20,  10vw 25vw 25vw);
+    grid-template-rows: repeat(6,  10vw 25vw 25vw);
     justify-content: right;
      place-items: center;
 }
@@ -299,6 +299,12 @@ article h1{
     grid-column-end:3;
     grid-row-start: 11;
     grid-row-end: 13;
+}
+.Kirke{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start: 14;
+    grid-row-end: 16;
 }
 .flip-card {
     background-color: transparent;
