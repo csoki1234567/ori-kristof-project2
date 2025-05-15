@@ -234,11 +234,16 @@ article h1{
         height: 200vw;
     }
 
-
+.horgony{
+    width: 20vw;
+    height: 100vw;
+    display: inline;
+    
+}
 .wrapper{
     display: grid;
     grid-template-columns: 20vw 20vw 20vw;
-    grid-template-rows: repeat(6,  10vw 25vw 25vw);
+    grid-template-rows: repeat(5,  10vw 25vw 25vw);
     justify-content: right;
      place-items: center;
 }
