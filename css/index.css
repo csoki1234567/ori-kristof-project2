@@ -57,6 +57,12 @@ img{
 .utvonal p{
     padding-top: 5px;
 }
+.rolunktelo{
+    text-align: center;
+    border: 2px solid #6F7351;
+    border-radius: 8px;
+    padding: 5px;
+}
 
 @media screen and (min-width: 800px){
     .gombok{
@@ -98,6 +104,10 @@ img{
         text-align: center;
 
     }
+    .dropdown{
+        display: none;
+    }
+    .rolunktelo{display: none;}
 
 
 }

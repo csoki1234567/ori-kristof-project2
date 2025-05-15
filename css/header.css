@@ -14,11 +14,12 @@ header{
     grid-row: 1/1;
     grid-column: 2/3;
 }
-#menug{
+.dropdown{
     grid-row: 1/1;
     grid-column: 3/4;
-    align-self: center;
-    margin-left: 15vw;
+    margin-top: 2vw;
+    color: #2E4A5B;
+    
 }
 
 @media screen and (max-width: 800px){
