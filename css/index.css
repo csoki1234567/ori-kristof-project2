@@ -261,6 +261,11 @@ article h1{
     grid-column-start:1 ;
     grid-column-end:4;
 }
+.text_5{
+    font-size:4;
+    grid-column-start:1;
+    grid-column-end:4;
+}
 .illiasz{
     grid-column-start: 2;
     grid-column-end:3 ;
