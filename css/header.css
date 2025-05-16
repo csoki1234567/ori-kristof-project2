@@ -9,15 +9,51 @@ header{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-    
 }
 #logo{
     grid-row: 1/1;
     grid-column: 2/3;
 }
-#menug{
+.dropdown{
     grid-row: 1/1;
     grid-column: 3/4;
-    justify-self: right;
-    align-self: center;
+    margin-top: 2vw;
+    color: #2E4A5B;
+    
+}
+
+@media screen and (max-width: 800px){
+    .gmbh{
+    display: none;
+    }
+}
+
+@media screen and (min-width: 800px){
+    header{
+        height: 7vw;
+    }
+    #logo{
+        grid-row: 1/1;
+        grid-column: 1/2;
+        height: 7vw;
+        justify-self: left;
+    }
+    #menug{
+        display: none;
+    }
+    .gmbh a{
+        color: #000000;
+        text-decoration: none;
+    }
+    .gmbh p{
+        font-size: 30px;
+    }
+    .gmbh{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        grid-row: 1/1;
+        grid-column: 3/4;
+    }
 }
