@@ -23,6 +23,9 @@ header {
     justify-items: center;
     
 }
+#horgony{
+    display: none;
+}
 .wrapper{
     display: none;
 }
@@ -234,11 +237,18 @@ article h1{
         height: 200vw;
     }
 
-.horgony{
-    width: 20vw;
-    height: 100vw;
-    display: inline;
-    
+#horgony{
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+}
+.link{
+    grid-column-start:1;
+    grid-column-end:1;
+    font-size: 2.2vw;
+}
+a{
+    color:black;
+    text-decoration: none;
 }
 .wrapper{
     display: grid;
@@ -246,6 +256,8 @@ article h1{
     grid-template-rows: repeat(5,  10vw 25vw 25vw);
     justify-content: right;
      place-items: center;
+     grid-column-start: 2;
+     grid-column-end:2;
 }
 #text{
     grid-column-start: 1;
