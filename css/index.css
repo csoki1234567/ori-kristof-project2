@@ -77,7 +77,7 @@ img{
     grid-row-gap: 0px;
     } 
     .felirat{ grid-area: 2 / 1 / 5 / 5; }
-    .gombok{ grid-area: 6 / 1 / 7 / 5; }
+    .gombok{ grid-area: 5 / 1 / 6 / 5; }
     .foto{ grid-area: 2 / 6 / 6 / 10; }
 
     .gombok{
@@ -85,7 +85,7 @@ img{
     }
     .felirat{
         font-size: 30px;
-        margin-left: 10px;
+        margin-left: 50px;
     }
     .felirat h1{
         font-size: 50px;
@@ -99,6 +99,7 @@ img{
     }
     .velemenyek{
         display: flex;
+        gap: 20px;
     }
     .pontosan{
         text-align: center;
@@ -124,4 +125,8 @@ img{
    .velemenyek{
     display: none;
    }
+}
+a{
+    text-decoration: none;
+    color: black;
 }
