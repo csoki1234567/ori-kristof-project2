@@ -8,7 +8,19 @@
     src: url('../assets/fonts/Itim-Regular.ttf');
   }  
 
-  
+  .gombok{
+    height: 67vw;
+    background-image: url("../images/hatter.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;  
+}
 body {
     font-family: vertical;
     background-color: #E8D5B5;
