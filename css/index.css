@@ -245,6 +245,11 @@ article h1{
     grid-column-start:1;
     grid-column-end:1;
     font-size: 2.2vw;
+    border:2.5px solid black; 
+    height: 20vw;
+    width: 30vw;
+    text-align: center;
+    background-color: #2E4A5B;
 }
 a{
     color:black;
