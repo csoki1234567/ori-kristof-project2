@@ -22,6 +22,45 @@ header {
     justify-items: center;
     
 }
+.gombok{
+    background-image: url("../images/hatter.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0vw;
+    grid-row-gap: 0vw;  
+}
+.vlem{
+    background-color: #E8D5B5;
+    text-align: center;
+    height: 80vw;
+}
+.vasar,.utvonal{
+    height: 20vw;
+    width: 12vw;
+    border-radius: 5.5px;
+}
+.vasar{
+    grid-area: 4 / 3 / 5 / 4;
+    background-color: #444444;
+    color: whitesmoke;
+    font-size: 2vw;
+}
+.utvonal{
+    grid-area: 5 / 3 / 6 / 4;
+    background-color: #C76D39;
+    font-size: 2vw;
+}
+.rolunktelo{
+    text-align: center;
+    border: 2px solid #6F7351;
+    border-radius: 8px;
+    padding: 5px;
+}
 #horgony{
     display: none;
 }
@@ -205,6 +244,35 @@ footer{
     display: none;
 }
 @media only screen and (min-width: 800px){
+     .gombok{
+        background-image: none;
+        display: inline;
+    }
+   .merge{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    } 
+    .felirat{ grid-area: 2 / 1 / 5 / 5; }
+    .gombok{ grid-area: 5 / 1 / 6 / 5; }
+    .foto{ grid-area: 2 / 6 / 6 / 10; }
+
+    .gombok{
+        justify-self: center;
+    }
+    .felirat{
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    .felirat h1{
+        font-size: 50px;
+    }
+    .fenykep{
+        width: 35vw;
+        height: auto;
+    }
     article h1, h2{
         font-size: 3vw;
     }
