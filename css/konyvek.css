@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Itim;
+}
+@font-face {
+    font-family: Itim;
+    src: url('../assets/fonts/Itim-Regular.ttf');
+  }  
+
+body {
+    font-family: vertical;
+    background-color: #E8D5B5;
+}
+
+header {
+    height: 7vW;
+    background-color: #2E4A5B !important;
+    text-align: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    
+}
+#horgony{
+    display: none;
+}
+.wrapper{
+    display: none;
+}
+#logo{
+    grid-row: 1/1;
+    grid-column: 2/3;
+    background-color: #2E4A5B !important;
+    height: 7vw;
+}
+#menug{
+    grid-row: 1/1;
+    grid-column: 3/4;
+    justify-self: right;
+    align-self: center;
+    background-color: #2E4A5B !important;
+    height: 6vw;
+}
+
+.flex-container{
+    display: flex;
+    gap:2.5vh;
+    flex-direction: column;
+}
+.flex-container p{
+    font-size: 3vw;
+}
+article  h1 , h2{
+    text-align: center;
+    font-size: 6vw;
+}
+article h1{
+    font-size: 5vw;
+}
+#szoveg{
+    background-color: #E8D5B5;
+    font-size: 7vw;
+    text-align: center;
+}
+
+.egy{
+    background-color: #C76D39;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: grid;
+    grid-template-columns: 30vw  1fr ; 
+    grid-template-rows: 10vw 25vw;
+    place-items: center;
+    
+}
+.egy img{
+    width: 25vw;
+    height: 32vw;
+    position: left;
+    grid-row: 1/ span 2;
+}
+.egy p{
+    grid-column: 2 / span 2;
+    color:white;
+    text-align: center;
+}
+.ketto{
+    background-color: #C76D39;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: grid;
+    grid-template-columns: 30vw  1fr ; 
+    grid-template-rows: 10vw 25vw;
+   place-items:center ;
+}
+.ketto img{
+    width: 24vw;
+    height: 32vw;
+    position: left;
+    grid-row: 1/ span 2;
+}
+.ketto p{
+    grid-column: 2 / span 2;
+    color:white;
+    text-align: center;
+    background-color: #C76D39;
+}
+
+
+.harom{
+    background-color: #C76D39;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: grid;
+    grid-template-columns: 30vw  1fr ; 
+    grid-template-rows: 10vw 32vw;
+   place-items:center ;
+}
+.harom img{
+    width: 25vw;
+    height: 37vw;
+    position: left;
+    grid-row: 1/ span 2;
+}
+.harom p{
+    grid-column: 2 / span 2;
+    color:white;
+    text-align: center;
+    background-color: #C76D39;
+}
+.szoveg_2{
+    text-align: center;
+    background-color:#E8D5B5;
+    font-size: 6vw;
+}
+.carousel{
+
+    display: grid;
+    grid-template-columns: 7vw 85vw 7vw ; 
+    grid-template-rows: 12vw 12vw 12vw ;
+}
+.carousel_button_right{
+    grid-column-start: 3;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end:3;
+    place-items: center;
+    cursor: pointer;
+}
+.carousel_button_right img{
+    height: 8vw;
+    width: 7vw;   
+}
+.carousel_button_left{
+    grid-column-start: 1;
+    grid-column-end:1;
+    grid-row-start:2;
+    grid-row-end:3;
+    cursor: pointer;
+}
+.carousel_button_left img {
+    height: 8vw;
+    width: 7vw; 
+}
+
+.carousel_container{
+    grid-column-start:2 ;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    justify-items: center;
+    position: relative;
+}
+.books{
+    background-color: #C76D39;
+    font-size: 2vw;
+    top:0;
+    bottom:0;
+    width:85vw;
+    height: 21vw;
+    transition: opacity 0.3s ease;
+    display: block;
+    inset:0;
+    opacity: 0;
+    position: absolute;
+}
+.books p {
+    color:white;
+    text-align: center;
+    background-color: #C76D39;
+    font-size: 3vw;
+    
+}
+
+.books.active{
+    display: grid;
+    opacity: 1;
+    
+}
+.books img{
+    display:none;
+}
+footer{
+    display: none;
+}
+@media only screen and (min-width: 800px){
+    article h1, h2{
+        font-size: 3vw;
+    }
+    #szoveg{
+        font-size: 4vw;
+    }
+    .flex-container{
+        display:flex;
+        justify-content:space-between ;
+        flex-direction: row;
+    }
+    .egy, .ketto, .harom{
+    background-color: #C76D39;
+    height: 16vw;
+    width: 25vw;
+    display: block;
+    }
+    .egy p, .ketto p, .harom p{
+        font-size: 1.2vw;
+    }
+    .egy h1, .ketto h1, .harom h1{
+        font-size: 2.2vw;
+    }
+    
+    .egy img, .ketto img, .harom img{
+        display: none;
+    }
+    .carousel{
+        display: none;
+    }
+    .flip-card-inner{
+        width: 200vw;
+        height: 200vw;
+    }
+
+#horgony{
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+}
+.link{
+    grid-column-start:1;
+    grid-column-end:1;
+    font-size: 2.2vw;
+    border:2.5px solid black; 
+    height: 20vw;
+    width: 30vw;
+    text-align: center;
+    background-color: #2E4A5B;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-template-rows: repeat(5,  10vw 25vw 25vw);
+    justify-content: right;
+     place-items: center;
+     grid-column-start: 2;
+     grid-column-end:2;
+}
+#text{
+    grid-column-start: 1;
+    grid-column-end:4;
+    font-size: 4vw;
+}
+.text_2{
+    font-size: 4vw;
+    grid-column-start:1;
+    grid-column-end:4;
+}
+.text_3{
+    font-size:4;
+    grid-column-start:1;
+    grid-column-end:4;
+}
+.text_4{
+    font-size:4;
+    grid-column-start:1 ;
+    grid-column-end:4;
+}
+.text_5{
+    font-size:4;
+    grid-column-start:1;
+    grid-column-end:4;
+}
+.illiasz{
+    grid-column-start: 2;
+    grid-column-end:3 ;
+    grid-row-start: 2;
+    grid-row-end:4;
+}
+
+.media{
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.Oreszteia{
+    grid-column-start: 3;
+    grid-column-end:4;
+}
+.Nikomakhoszi{
+    grid-column-start: 2;
+    grid-column-end:3 ;
+    grid-row-start: 5;
+    grid-row-end:7;
+}
+.Thukudidesz{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:8;
+    grid-row-end:10;
+}
+.Akinek_meg_kell_halnia{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start: 11;
+    grid-row-end: 13;
+}
+.Kirke{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start: 14;
+    grid-row-end: 16;
+}
+.flip-card {
+    background-color: transparent;
+    width: 16vw;
+    height: 24vw;
+    perspective: 1000px;
+}
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: black;
+    transform: rotateY(180deg);
+  }
+  footer{
+    display: grid;
+    grid-template-columns: 1fr 13vw 13vw 13vw 1fr ;
+    grid-template-rows: 5vw 5vw;
+    place-items: center;
+  }
+.sok_kep{
+    
+    grid-column: 5 / span 6;
+    grid-row: 1 /span 2;
+}
+#nemtom{
+     width: 18vw;
+    height: 7vw;
+}
+.instagram{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row: 1 / span 1;
+    font-size: 2vw;
+}
+.facebook{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row: 1 / span 1;
+    font-size: 2vw;
+}
+.x{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row: 1 / span 1;
+    font-size: 2.2vw;
+}
+.szoveg_3{
+    grid-rows: 2/ span 2;
+    grid-column-start: 2;
+    grid-column-end:5;
+    font-size:1.5vw;
+
+}
+}
