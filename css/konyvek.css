@@ -310,7 +310,7 @@ footer{
 
 #horgony{
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 .link{
     grid-column-start:1;
@@ -321,6 +321,7 @@ footer{
     width: 30vw;
     text-align: center;
     background-color: #2E4A5B;
+    justify-content: space-between;
 }
 a{
     color:black;
