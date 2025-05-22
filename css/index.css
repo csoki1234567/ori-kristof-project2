@@ -167,7 +167,7 @@ footer{
     font-size: 2.2vw;
 }
 .szoveg_3{
-    grid-rows: 2/ span 2;
+    grid-row: 2/ span 2;
     grid-column-start: 2;
     grid-column-end:5;
     font-size:1.5vw;
