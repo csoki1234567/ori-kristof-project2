@@ -68,6 +68,10 @@ footer{
 }
 
 @media screen and (min-width: 800px){
+    footer{
+        display:none;
+    }
+    
     .gombok{
         background-image: none;
         display: inline;
@@ -143,6 +147,7 @@ footer{
     
     grid-column: 5 / span 6;
     grid-row: 1 /span 2;
+    height: 2vw;
 }
 #nemtom{
      width: 18vw;
