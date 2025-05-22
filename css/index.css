@@ -14,8 +14,8 @@ body{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 0vw;
-    grid-row-gap: 0vw;  
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;  
 }
 .vlem{
     background-color: #E8D5B5;
@@ -23,20 +23,20 @@ body{
     height: 80vw;
 }
 .vasar,.utvonal{
-    height: 20vw;
-    width: 12vw;
+    height: 42px;
+    width: 120px;
     border-radius: 5.5px;
 }
 .vasar{
     grid-area: 4 / 3 / 5 / 4;
     background-color: #444444;
     color: whitesmoke;
-    font-size: 2vw;
+    font-size: 25px;
 }
 .utvonal{
     grid-area: 5 / 3 / 6 / 4;
     background-color: #C76D39;
-    font-size: 2vw;
+    font-size: 20px;
 }
 p,h3,h1{
     font-family: Itim;

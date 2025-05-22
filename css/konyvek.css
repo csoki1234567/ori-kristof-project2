@@ -36,12 +36,7 @@ header {
 .wrapper{
     display: none;
 }
-#logo{
-    grid-row: 1/1;
-    grid-column: 2/3;
-    background-color: #2E4A5B !important;
-    height: 7vw;
-}
+
 #menug{
     grid-row: 1/1;
     grid-column: 3/4;
@@ -136,6 +131,9 @@ article h1{
     color:white;
     text-align: center;
     background-color: #C76D39;
+}
+.harom h1{
+    font-size: 4.5vw;
 }
 .szoveg_2{
     text-align: center;
